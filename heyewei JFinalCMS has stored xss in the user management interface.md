@@ -1,6 +1,22 @@
 target:https://gitee.com/heyewei/JFinalcms
+
 version:v5.0.0
+
 xss has a new creation function for user management. When creating username, the poc is directly entered into the name field and saved，url is admin/admin/save
+
 This function is located under the System management module
 ![后台管理系统截图](https://raw.githubusercontent.com/zh-010/picx-images-hosting/master/20260202/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-02-02-014146.2dp7l9wdch.png)
+
+![后台管理系统截图](https://github.com/zh-010/picx-images-hosting/raw/master/20260202/屏幕截图-2026-02-02-032940.1ovy1bpkq1.png)
+
+poc:<script>alert(123)</script>
+
+![后台管理系统截图](https://github.com/zh-010/picx-images-hosting/raw/master/20260202/image.2ksfgs17bu.png)
+
+save
+
+![后台管理系统截图](https://github.com/zh-010/picx-images-hosting/raw/master/20260202/image.6t7mqlvolj.png)
+
+
+
 
