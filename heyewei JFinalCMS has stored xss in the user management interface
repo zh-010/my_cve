@@ -1,6 +1,6 @@
 target:https://gitee.com/heyewei/JFinalcms
 version:v5.0.0
-xss has a new creation function for user management. When creating, the poc is directly entered into the name field and saved.url is admin/admin/save
+xss has a new creation function for user management. When creating username, the poc is directly entered into the name field and saved，url is admin/admin/save
 This function is located under the System management module
 
 
